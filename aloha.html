@@ -14,10 +14,10 @@
             <img src="images/aloha-logo.svg">
         </div>
         <ul class="navList">
-            <li a href="#about"> ABOUT </li>
-            <li a href="#shop">SHOP </li>
-            <li a href="#featured">FEATURED</li>
-            <li a href="#updates">UPDATES</li>
+            <li> <a href="#about"> ABOUT </a></li>
+            <li> <a href="#shop">SHOP </a></li>
+            <li> <a href="#featured">FEATURED </a></li>
+            <li ><a href="#updates">UPDATES</a></li>
         </ul>
         <div class="shopping-cart">
             <img src="images/cart-icon.svg">
@@ -48,21 +48,39 @@
         </div>
     </section>
     <section class="featured" id="featured">
-        <h2> Most-Loved <span class="span-style">Products </span> </h2>
-        <div class="carousel js-flickity"
-        data-flickity-options='{ "prevNextButtons": false }'>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        <div class="carousel-cell"></div>
-        </div>
+        <h2 class="most-loved"> Most-Loved <span class="span-style">Products </span> </h2>
+        <div class="carousel">
+            <div class="carousel-cell">
+              <img src="images/checked-stretch-dress.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/cotton-blue-shirt.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/cotton-yellow-tshirt.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/blue-hipster-backpack.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/blue-silk-dress.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/pink-dotted-dress.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/stretch-knit-dress.jpg">
+            </div>
+          </div>
     </section>
     <section class="updates" id="updates">
-        <div class="sign-up-container">
-            <h2>Sign-up for <span class="span-style">Updates</span></h2>
-        <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-    <form class="sign-up-form">
+        <div class="sign-up-container" id="section5">
+            <div class="sign-up-container2">
+           <div class="sign-up-title">Sign-Up for Updates</div>
+           <div class="sign-up-body">
+           <p>Stay updated on your latest product releases, be first to find out about
+                    upcoming sales, and get free style tips from our blog. Unsubscribe at any time.
+           </p>
         <input type="text" name "email" value="Your Email">
         <input type="submit" value="Subscribe">
     </form>
@@ -76,7 +94,7 @@
                     <p>Powered by HTML and CSS.</p>
                 </div>
                 <div class="contact">
-                    <p>604-604-6040 <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+                    <p>604-604-6040 <span ="mail-to"><a href="mailto:info@alohaapparel.com">info@alohaapparel.com</span></a></p>
                 </div>
                 <div class="address">
                     <p>1490 W Broadway</p>
