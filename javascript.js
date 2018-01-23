@@ -45,8 +45,8 @@ $('.carousel').flickity({
 
 
 
-  $(document).ready(function(e) {
-      $('#btnValidate').click(function() {
+
+      $('#btnValidate').click(function(e) {
           var sEmail = $('#txtEmail').val();
           if ($.trim(sEmail).length == 0) {
               alert('Please enter valid email address');
@@ -54,13 +54,13 @@ $('.carousel').flickity({
           }
           if (validateEmail(sEmail)) {
               alert('Thanks for subscribing!');
-          }
-          else {
-              alert('Invalid Email Address');
               e.preventDefault();
           }
+          // else {
+          //     alert('Invalid Email Address');
+          //     e.preventDefault();
+          // }
       });
-  });
   
   function validateEmail(sEmail) {
       var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
@@ -71,3 +71,5 @@ $('.carousel').flickity({
           return false;
       }
   }
+
+
