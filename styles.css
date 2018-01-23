@@ -35,6 +35,16 @@ html,body{
     padding-top:20px;
 }
 
+a:link, a:visited {
+    color: #e2574c;
+    text-decoration: none;
+}
+   
+a:hover, a:active {
+    color: #b64036;
+   }
+
+
 .navList{
     display:flex;
 
@@ -816,6 +826,14 @@ input[type=submit] {
 
 
 @media (min-width: 1240px) {
+
+
+
+   
+a:hover, a:active {
+    color: #b64036;
+   }
+
 
     .header-container{
         display:flex;
