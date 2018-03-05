@@ -6,26 +6,20 @@ html,body{
     height:100%;
     width:100%;
 }
-
 .sign-up-form {
     position: relative;
 }
-
 .header-container img{
     height:auto;
     max-width:100%
 }
-
 .header-container{
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
     width:100%;
     height:100px;
-
-
 }
-
 .logo{
     flex:0 1 40%;
     order:1;
@@ -34,7 +28,6 @@ html,body{
     padding-left:20px;
     padding-top:20px;
 }
-
 a:link, a:visited {
     color: #e2574c;
     text-decoration: none;
@@ -59,16 +52,11 @@ a:hover, a:active {
     border:#d7d7d7;
     border-top-width: 1px;
     border-top-style:solid;
-
-
-
-
 }
 
 .navList a{
     text-decoration:none;
     color:#e2574c;
-
 }
 
 .navList li{
@@ -103,29 +91,23 @@ a:hover, a:active {
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 
 }
-
 .collection {
     font-size:1.25rem;
     text-transform: uppercase;
-
 }
-
 .season{
     font-size: 2rem;
     font-weight:normal;
     font-family: "Playfair Display";
     width:100%
 }
-
 .banner p{
     position: relative;
     top: 200px;
     color: white;
 }
-
 .about-text-container{
     text-align: center;
-
     flex-direction:column;
     justify-content:center;
     align-items:center;
@@ -134,25 +116,18 @@ a:hover, a:active {
     margin-top:0px;
     line-height:200%
 }
-
 .about-text-container h2{
     font-family: "Playfair Display";
     font-style:italic;
     font-size:2rem;
     font-weight:normal;
-
-
 }
-
 .span-style{
     font-family: "Playfair Display";
     font-size:2rem;
     font-style:normal;
     font-weight:bold;
-
 }
-
-
 .shop-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -165,9 +140,7 @@ a:hover, a:active {
     "womens womens womens womens";
     text-transform: uppercase;
 }
-
 .product-mens{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
                 url(images/mens-category.jpg);
     background-size: cover;
@@ -183,7 +156,6 @@ a:hover, a:active {
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 }
 .product-trends{
-
    background:  linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
                 url(images/trends-category.jpg);
    background-size: cover;
@@ -199,7 +171,6 @@ a:hover, a:active {
 }
 
 .product-glasses{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
                 url(images/glasses-category.jpg);
     background-size: cover;
@@ -213,7 +184,6 @@ a:hover, a:active {
     grid-area:glasses;
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 }
-
 .product-sale{
 
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
@@ -229,8 +199,6 @@ a:hover, a:active {
     grid-area:sales;
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 }
-
-
 .product-bags{
 
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
@@ -246,9 +214,7 @@ a:hover, a:active {
     grid-area:bags;
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 }
-
 .product-women{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
                 url(images/womens-category.jpg);
     background-size: cover;
@@ -261,7 +227,6 @@ a:hover, a:active {
     background-repeat: no-repeat;
     grid-area:womens;
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
-
 }
 .most-loved{
     text-align:center;
@@ -272,39 +237,29 @@ a:hover, a:active {
     margin-top:40px;
     margin-bottom:70px;
 }
-
 .featured-1{
     text-align:center;
     font-size:0.8rem;
     color:#969696;
     text-transform: uppercase;
-
 }
-
 .featured-2{
     text-align:center;
     font-size:1.4rem;
     font-family: "Playfair Display";
     color:#e2574c;
-
 }
-
 .featured-3{
     text-align:center;
     color:#969696;
-
 }
-
 .button_group{
     text-align:center;
 }
-
 .sign-up-container{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,.25)),
     url("images/wave-bkgd.jpg");
     background-repeat: no-repeat;
-
     background-position: bottom center;
     height: 350px;
     width:100%;
@@ -315,21 +270,14 @@ a:hover, a:active {
     line-height:200%;
     margin-top:50px;
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
-
-
-
-
 }
-
 .sign-up-container2{
     text-align:center;
 }
-
 .updates{
     font-style:normal;
     font-weight:bold;
 }
-
 .sign-up-title{
     font-family: "Playfair Display";
     font-style:normal;
@@ -339,14 +287,12 @@ a:hover, a:active {
     font-weight:normal;
 
 }
-
 .sign-up-body{
     color:white;
     width:530px;
     font-size:1rem;
     font-weight: 350;
     width:100%;
-
 }
 input[type=email]{
     border:0;
@@ -354,9 +300,7 @@ input[type=email]{
     width:60%;
     padding:1rem;
     box-sizing: border-box;
-
   }
-
 input[type=submit] {
     position:absolute;
     border:0;
@@ -368,18 +312,13 @@ input[type=submit] {
     cursor:pointer;
     background-color: #e2574c;
     position:absolute;
-
-
-
 }
-
 .input-text{
     font-family:"Raleway";
     font-size:1rem;
     font-weight:lighter;
     color: #969696;
 }
-
 .submit-text{
     font-family:"Raleway";
     font-size:1rem;
@@ -388,7 +327,6 @@ input[type=submit] {
     position:absolute;
     right:5px;
 }
-
 .footer{
     text-align:center;
 }
@@ -404,29 +342,21 @@ input[type=submit] {
     padding-right:20px;
     font-size:13px;
 }
-
 .footer-container a{
     color:white;
-
     display: inline-block;
-
 }
-
 .about{
     margin-top:70px;
 }
-
 .copyright{
     line-height:50%;
-
 }
-
 .contact{
     line-height:50%;
     padding-top:5px;
     padding-bottom:5px;
 }
-
 .social-media{
     margin: 0 auto;
     display:flex;
@@ -437,23 +367,18 @@ input[type=submit] {
     justify-content:space-between;
     min-width:130px;
     max-width:130px;
-
 }
-
 .address{
     line-height:50%;
     color:#969696;
 }
-
 .cancel-social{
     display: none;
 }
-
 .carousel-cell {
     width:100%;
     text-align:center;
 }
-
 input[type=submit] {
     position:absolute;
     border:0;
@@ -464,32 +389,18 @@ input[type=submit] {
     cursor:pointer;
     background-color: #e2574c;
     position:absolute;
-
-
-
 }
-
 .text-for-HCS{
-
-
     font-weight:lighter;
-
-
 }
-
-
-
 @media(min-width:600px){
     .header-container{
         display:flex;
         flex-wrap:nowrap;
         justify-content:space-between;
-
         height:100px;
         flex-wrap:nowrap;
-
     }
-
     .logo{
         display:flex;
         flex:0 1 30%;
@@ -497,9 +408,7 @@ input[type=submit] {
         max-width:160px;
         padding:0;
         padding-left:20px;
-
     }
-
     .navList{
         display:flex;
         text-align:center;
@@ -511,30 +420,21 @@ input[type=submit] {
         border-top-style:hidden;
         padding-right:8px;
         max-width:350px;
-
-
-
-
     }
-
     .navList li{
         display:flex;
     }
-
     .shopping-cart{
         display:flex;
         flex:0 1 20%;
         order:3;
         max-width:65px;
-
     }
-
 .header-container > .logo {order:1;}
 .header-container > .navList {order:2;}
 .header-container > .shopping-cart {order:3;}
 
 .banner{
-
     background: url("images/banner-girl.png"), linear-gradient(180deg,rgba(0,0,0,.25))
                 url("images/flower-bkgd.jpg"), linear-gradient(0deg,rgba(0,0,0,.25));
     background-position: bottom center;
@@ -543,17 +443,13 @@ input[type=submit] {
     text-align: center;
     top:50%;
     line-height:15px;
-
-
 }
-
 .season{
     font-size: 4rem;
     font-weight:normal;
     font-family: "Playfair Display";
     width:100%
 }
-
 .most-loved{
     text-align:center;
     font-size: 2.5rem;
@@ -563,31 +459,20 @@ input[type=submit] {
     margin-top:60px;
     margin-bottom:70px;
 }
-
 .about-text-container h2{
 font-size:2.5rem;
-
 }
-
 .about-text-container {
     font-size:1.2rem;
     text-align:center;
-
     }
-
 .text-for-HCS{
-
     width:700px;
     font-weight:lighter;
-
-
 }
-
 .span-style{
     font-size:2.5rem;
-
 }
-
 .shop-container{
     display: grid;
     grid-template-rows:200px 200px;
@@ -596,10 +481,7 @@ font-size:2.5rem;
     grid-template-areas:"mens mens trends glasses"
     "sales bags womens womens";
 }
-
-
 .product-mens{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/mens-category.jpg);
     background-size: cover;
@@ -614,7 +496,6 @@ font-size:2.5rem;
     grid-area:mens;
 }
 .product-trends{
-
    background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
    url(images/trends-category.jpg);
    background-size: cover;
@@ -627,9 +508,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:trends;
 }
-
 .product-glasses{
-
     background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/glasses-category.jpg);
     background-size: cover;
@@ -642,9 +521,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:glasses;
 }
-
 .product-sale{
-
     background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/sale-category.jpg);
     background-size: cover;
@@ -657,9 +534,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:sales;
 }
-
 .product-bags{
-
     background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/bags-category.jpg);
     background-size: cover;
@@ -672,9 +547,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:bags;
 }
-
 .product-women{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/womens-category.jpg);
     background-size: cover;
@@ -686,33 +559,21 @@ font-size:2.5rem;
     font-size:1.5rem;
     background-repeat: no-repeat;
     grid-area:womens;
-
-
 }
-
 .carousel{
     height:500px;
     margin-bottom:75px;
     text-align:center;
-
-
 }
-
 .carousel-cell {
     width:50%;
 }
-
-
-
-
 .sign-up-body{
     color:white;
     width:650px;
     font-size:1.1rem;
     font-weight: 350;
-
 }
-
 .sign-up-title{
     font-family: "Playfair Display";
     font-size:2.3rem;
@@ -720,31 +581,18 @@ font-size:2.5rem;
     font-style:italic;
     font-weight:normal;
     margin-bottom:30px;
-
 }
-
 .sign-up-form{
-
     box-sizing: border-box;
-
     margin-top:30px;
     width:90%;
-    /* display:flex; */
     align-items:center;
     justify-content:flex-end;
     position: relative;
-
-
 }
-
-
-
-
-
 .footer{
     text-align:left;
 }
-
 .footer-container{
     font-family: "Playfair Display";
     align-items:center;
@@ -757,29 +605,17 @@ font-size:2.5rem;
     display:flex;
     align-items:center;
     justify-content:space-between;
-
-
-
-
 }
-
 .about{
     display:flex;
     justify-content:space-between;
     flex-direction:column;
     font-size:1rem;
     padding-bottom:90px;
-
-
 }
-
-
-
 .contact{
     padding:0;
-
 }
-
 .social-media{
     list-style-type:none;
     font-family:"Raleway";
@@ -790,25 +626,13 @@ font-size:2.5rem;
     padding-bottom:40px;
     font-weight:lighter;
     line-height:35px;
-
     margin: 0;
 }
-
-.social-media li {
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; */
-}
-
 .cancel-social {
     display:flex;
 }
 
-
-
-
 }
-
 input[type=submit] {
     position:absolute;
     border:0;
@@ -821,33 +645,18 @@ input[type=submit] {
     cursor:pointer;
     background-color: #e2574c;
     position:absolute;
-
-
-
 }
-
-
-
 @media (min-width: 1240px) {
-
-
-
-
 a:hover, a:active {
     color: #b64036;
    }
-
-
     .header-container{
         display:flex;
         flex-wrap:nowrap;
         justify-content:space-between;
-
         height:100px;
         flex-wrap:nowrap;
-
     }
-
     .logo{
         display:flex;
         flex:0 1 30%;
@@ -855,9 +664,7 @@ a:hover, a:active {
         max-width:160px;
         padding:0;
         padding-left:20px;
-
     }
-
     .navList{
         display:flex;
         text-align:center;
@@ -868,23 +675,16 @@ a:hover, a:active {
         width:350px;
         border-top-style:hidden;
         padding-right:60px;
-
-
-
     }
-
     .navList li{
         display:flex;
     }
-
     .shopping-cart{
         display:flex;
         flex:0 1 20%;
         order:3;
         max-width:65px;
-
     }
-
 .header-container > .logo {order:1;}
 .header-container > .navList {order:2;}
 .header-container > .shopping-cart {order:3;}
@@ -899,17 +699,13 @@ a:hover, a:active {
     text-align: center;
     top:50%;
     line-height:15px;
-
-
 }
-
 .season{
     font-size: 4rem;
     font-weight:normal;
     font-family: "Playfair Display";
     width:100%
 }
-
 .most-loved{
     text-align:center;
     font-size: 2.5rem;
@@ -919,31 +715,20 @@ a:hover, a:active {
     margin-top:60px;
     margin-bottom:70px;
 }
-
 .about-text-container h2{
 font-size:2.5rem;
-
 }
-
 .about-text-container {
     font-size:1.2rem;
     text-align:center;
-
     }
-
 .text-for-HCS{
-
     width:700px;
     font-weight:lighter;
-
-
 }
-
 .span-style{
     font-size:2.5rem;
-
 }
-
 .shop-container{
     display: grid;
     grid-template-rows:300px 300px;
@@ -952,10 +737,7 @@ font-size:2.5rem;
     grid-template-areas:"mens mens trends glasses"
     "sales bags womens womens";
 }
-
-
 .product-mens{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/mens-category.jpg);
     background-size: cover;
@@ -970,7 +752,6 @@ font-size:2.5rem;
     grid-area:mens;
 }
 .product-trends{
-
    background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
    url(images/trends-category.jpg);
    background-size: cover;
@@ -983,9 +764,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:trends;
 }
-
 .product-glasses{
-
     background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/glasses-category.jpg);
     background-size: cover;
@@ -998,9 +777,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:glasses;
 }
-
 .product-sale{
-
     background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/sale-category.jpg);
     background-size: cover;
@@ -1013,9 +790,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:sales;
 }
-
 .product-bags{
-
     background:linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/bags-category.jpg);
     background-size: cover;
@@ -1028,9 +803,7 @@ font-size:2.5rem;
     background-repeat: no-repeat;
     grid-area:bags;
 }
-
 .product-women{
-
     background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,.25)),
     url(images/womens-category.jpg);
     background-size: cover;
@@ -1042,33 +815,21 @@ font-size:2.5rem;
     font-size:2.3rem;
     background-repeat: no-repeat;
     grid-area:womens;
-
-
 }
-
 .carousel{
     height:500px;
     margin-bottom:75px;
     text-align:center;
-
-
 }
-
 .carousel-cell {
     width:25%;
 }
-
-
-
-
 .sign-up-body{
     color:white;
     width:650px;
     font-size:1.1rem;
     font-weight: 350;
-
 }
-
 .sign-up-title{
     font-family: "Playfair Display";
     font-size:2.3rem;
@@ -1076,21 +837,13 @@ font-size:2.5rem;
     font-style:italic;
     font-weight:normal;
     margin-bottom:30px;
-
 }
-
 .sign-up-form{
     margin-top:30px;
 }
-
-
-
-
-
 .footer{
     text-align:left;
 }
-
 .footer-container{
     font-family: "Playfair Display";
     align-items:center;
@@ -1103,29 +856,17 @@ font-size:2.5rem;
     display:flex;
     align-items:center;
     justify-content:space-between;
-
-
-
-
 }
-
 .about{
     display:flex;
     justify-content:space-between;
     flex-direction:column;
     font-size:1rem;
     padding-bottom:90px;
-
-
 }
-
-
-
 .contact{
     padding:0;
-
 }
-
 .social-media{
     list-style-type:none;
     font-family:"Raleway";
@@ -1136,16 +877,8 @@ font-size:2.5rem;
     padding-bottom:40px;
     font-weight:lighter;
     line-height:35px;
-
-
-
 }
-
 .cancel-social {
     display:flex;
-
 }
-
-
-
 }
