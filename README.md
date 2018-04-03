@@ -1,3 +1,6 @@
+<h1> Aloha </h1>
+
+
 For this project, I used CSS and HTML.
 
 This project was very helpful and fun as I learnt many new things such as mobile first, flickity, flexbox, CSS grid and many more 
