@@ -1,8 +1,15 @@
 <h1> Aloha </h1>
 
+<h2>Desktop</h2>
+<img src="https://gyazo.com/9a2982d1095db2c9dd81bb4679312425">
 
-For this project, I used CSS and HTML.
+<h2>Mobile</h2>
+<img src="https://gyazo.com/0077e51aa8742fffa61d929e0acf7c97">
 
-This project was very helpful and fun as I learnt many new things such as mobile first, flickity, flexbox, CSS grid and many more 
-things that are very applicable to projects I may have in the future.
+<h2>What is Aloha?</h2>
+Aloha is a static one page mock up site based on a design. 
+
+<h2>What was used for Aloha?</h2>
+<li>CSS</li>
+<li>HTML</li>
 
