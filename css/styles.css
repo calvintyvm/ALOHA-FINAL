@@ -309,7 +309,7 @@ input[type=submit] {
     border-radius:25px;
     top:50%;
     transform:translateY(-50%);
-    right:120px;
+    right: 21%;
     padding:.7rem;
     cursor:pointer;
     background-color: #e2574c;
@@ -341,7 +341,7 @@ input[type=submit] {
     height:100%;
     background-color:#242424;
     color:white;
-    border:1px solid;
+    padding-top: 5px;
     padding-left:20px;
     padding-right:20px;
     font-size:13px;
@@ -365,7 +365,7 @@ input[type=submit] {
     margin: 0 auto;
     display:flex;
     list-style-type:none;
-    padding-right:50px;
+    margin-bottom:50px;
     font-family:"Raleway";
     margin-top:50px;
     justify-content:space-between;
@@ -382,17 +382,6 @@ input[type=submit] {
 .carousel-cell {
     width:100%;
     text-align:center;
-}
-input[type=submit] {
-    position:absolute;
-    border:0;
-    border-radius:25px;
-    top:50%;
-    transform:translateY(-50%);
-    padding:.7rem;
-    cursor:pointer;
-    background-color: #e2574c;
-    position:absolute;
 }
 .text-for-HCS{
     font-weight:lighter;
@@ -603,7 +592,7 @@ font-size:2.5rem;
     height:100%;
     background-color:#242424;
     color:white;
-    border:1px solid;
+
     padding-left:50px;
     padding-right:30px;
     display:flex;
@@ -643,7 +632,7 @@ input[type=submit] {
     border-radius:25px;
     top:50%;
     transform:translateY(-50%);
-    right:120px;
+    right: 21%;
     max-width:300px;
     padding:.7rem;
     cursor:pointer;
@@ -856,7 +845,7 @@ font-size:2.5rem;
     height:100%;
     background-color:#242424;
     color:white;
-    border:1px solid;
+
     padding-left:50px;
     padding-right:30px;
     display:flex;
